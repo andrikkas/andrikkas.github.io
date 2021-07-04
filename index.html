@@ -13,6 +13,14 @@
             $("#nav-placeholder").replaceWith(data);
         });
     </script>
+	
     <p>My main page code</p>
+	
+    <div id="footer-placeholder"></div>	
+    <script>
+        $.get("footer.html", function(data){
+            $("#footer-placeholder").replaceWith(data);
+        });
+    </script>
 </body>
 </html>
