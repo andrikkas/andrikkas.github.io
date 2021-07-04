@@ -1,26 +1,43 @@
+<!DOCTYPE HTML>
+<!--
+	Escape Velocity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 
 <html>
-<head>
-<script
+  <head>
+		<title>André da Silva Schneider Homepage</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+	  
+    <script
 			  src="https://code.jquery.com/jquery-3.6.0.js"
 			  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
 			  crossorigin="anonymous"></script>
-</head>
-<body>
-    <div id="nav-placeholder"></div>
-    <script>
-        $.get("navigation.html", function(data){
-            $("#nav-placeholder").replaceWith(data);
-        });
-    </script>
+  </head>
+
+	<body class="homepage">
+  	<!-- Header -->
+		<div id="header-placeholder"></div>
+			<script>
+				$.get("header.html", function(data){
+					$("#header-placeholder").replaceWith(data);
+				});
+			</script>
 	
-    <p>My main page code</p>
-	
+			<p>Under Construction</p>
+			
+		</div>
+		
     <div id="footer-placeholder"></div>	
     <script>
         $.get("footer.html", function(data){
             $("#footer-placeholder").replaceWith(data);
         });
     </script>
-</body>
+		
+	</body>
 </html>
